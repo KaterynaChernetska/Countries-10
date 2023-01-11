@@ -26,7 +26,9 @@ function onFieldInput (event) {
         .catch(err => {
                  if (err === 404) {
             Notiflix.Notify.failure('Oops, there is no country with that name')}})
-}
+            container.innerHTML = '';
+            ulElement.innerHTML = '';
+        }
 
 function createMarkup(array) {        
          container.innerHTML = '';

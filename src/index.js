@@ -13,6 +13,7 @@ input.addEventListener('input', debounce(onFieldInput,DEBOUNCE_DELAY));
 
 function onFieldInput (event) {
         const value = input.value.trim();
+        console.log(value);
 
         if (value.length === 0) {
             container.innerHTML = '';

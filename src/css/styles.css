@@ -17,4 +17,19 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  margin-left: 40px;
+}
+
+
+li{
+  list-style: none;
+  margin-bottom: 15px;
+
+}
+.text {
+  font-weight: 600;
+}
+
+.country-name{
+  margin-left: 40px;
 }
